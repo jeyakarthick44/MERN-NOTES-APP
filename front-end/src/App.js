@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} exact />
-        <Route path="/mynotes" element={()=> <MyNotes /> } />
+        <Route path="/mynotes" element={<MyNotes /> } />
         {/* <Route path="/register" component={RegisterScreen} /> */}
         </Routes>
         </Router>
