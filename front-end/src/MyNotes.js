@@ -13,6 +13,15 @@ const deleteHandler = (id) => {
     }
 }
 
+// const fetchNotes = async() => {
+//     const data = axios.get("api/notes")
+// }
+
+// useEffect(() => {
+//     fetchNotes
+// }, [])
+
+
     return (
             <MainScreen title="welcome" >
                 <Link to="/createNote">
